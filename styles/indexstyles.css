@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(../../fonts/roboto/Roboto-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-black';
+    src: url(../../fonts/roboto/Roboto-Black.ttf) format(truetype);
+    font-weight: extra-bold;
+}
+
+@font-face {
+    font-family: 'Roboto-light-italics';
+    src: url(../../fonts/roboto/Roboto-LightItalic.ttf) format(truetype);
+    font-weight: light-italic;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    margin-bottom: 0;
+    padding: 0 7vw;
+}
+
+.logo {
+    height: 90%;
+    width: auto;
+   margin-left: 0;
+   padding-left: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li {
+    padding-left: 12px;
+    font-family: Roboto-regular;
+    font-size: 18px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    transition: 0.7s ease-in-out;
+}
+
+a:hover {
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 5vh 7vw;
+}
+
+.first-section article {
+    padding-right: 7px;
+}
+
+.first-section h1 {
+    font-family: Roboto-black, sans-serif;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.first-section p {
+    font-family: Roboto-regular, sans-serif;
+    color: #E5E7EB;
+    font-weight: 18px;
+}
+
+.first-section button {
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 5px 17px;
+    color: #F9FAF8;
+    transition: 0.7s ease-in-out;
+}
+
+.first-section button:hover {
+    background-color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    color: #3882f6;
+}
+
+.first-section img {
+    max-width: 48%;
+    height: 50%;
+}
+
+.first-section button img {
+    width: 12px;
+}
