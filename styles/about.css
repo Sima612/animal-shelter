@@ -59,4 +59,17 @@ a {
 a:hover {
     color: #1F2937;
     background-color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    padding: 4vh;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Roboto-regular;
+    font-size: 24px;
 }*/
