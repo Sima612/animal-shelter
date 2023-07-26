@@ -60,6 +60,32 @@ a:hover {
     background-color: #E5E7EB;
 }
 
+main p{
+    font-family: Roboto-regular;
+    text-align: justify;
+}
+
+main .title{
+    font-family: Roboto-black;
+    font-weight: bold;
+    margin: 2vw;
+    color: #1f2937;
+}
+
+main .reasons{
+    margin: 4.5vw;
+}
+
+main .reasons .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .reasons .container p {
+    width: 45%;
+}
+
 footer {
     display: flex;
     align-items: center;
