@@ -110,19 +110,25 @@ a:hover {
 }
 
 .about-section-left h3 {
+  transform: translateY(-50px);
   color: #f9faf8;
   font-size: 36px;
   font-weight: bolder;
   text-align: center;
+  margin: 0.8vh;
 }
 
 .about-section-left p {
+  transform: translateY(-50px);
+  margin: 0.8vh;
   color: #f9faf8;
+  text-align: justify;
 }
 
 .left-description ul img{
+  transform: translateY(-35px);
   filter: invert(100%);
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
 } 
 
 .about-section-right p {
