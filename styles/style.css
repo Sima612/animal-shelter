@@ -119,6 +119,12 @@ a:hover {
 .about-section-left p {
   color: #f9faf8;
 }
+
+.left-description ul img{
+  filter: invert(100%);
+  mix-blend-mode:lighten;
+} 
+
 .about-section-right p {
   text-align: justify;
   font-weight: 50;
@@ -157,7 +163,8 @@ a:hover {
 }
 
 .about-container .contact {
-  font-size: 30px;
+  margin-top: 0.5vh;
+  font-size: 24px;
 }
 
 ul {
