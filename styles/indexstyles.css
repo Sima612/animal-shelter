@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Roboto-black';
-    src: url(../../fonts/roboto/Roboto-Black.ttf) format(truetype);
+    src: url(../fonts/roboto/Roboto-Bold.ttf) format(truetype);
     font-weight: extra-bold;
 }
 
@@ -26,14 +26,17 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
+    padding: 12px 12vw 0 12vw;
 }
 
 .logo {
-    width: 500px;
+    width: 250px;
     height: auto;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 ul {
@@ -64,37 +67,33 @@ a:hover {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    padding: 5vh 7vw;
+    padding: 16vh 12vw;
 }
 
 .first-section article {
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 3vw;
 }
 
 .first-section h1 {
     font-family: Roboto-black, sans-serif;
     color: #F9FAF8;
     font-size: 48px;
-    margin-top: -50px;
     margin-bottom: 0;
-    padding-top: 0;
 }
 
 .first-section p {
     font-family: Roboto-regular, sans-serif;
     color: #E5E7EB;
-    font-weight: 18px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-.first-section button, .fourth-section button {
-    width: 250px;
-    height: 70px;
+.first-section button, .fourth-section button{
+    width: 150px;
+    height: 40px;
     background-color: #3882f6;
     border: none;
-    border-radius: 16px;
+    border-radius: 7px;
     margin-top: 12px;
     color: #F9FAF8;
     display: flex;
@@ -102,6 +101,7 @@ a:hover {
     align-items: center;
     font-size: 18px;
     transition: 0.7s ease-in-out;
+    font-family: Roboto-black, sans-serif;
 }
 
 .first-section button:hover, .fourth-section button:hover {
@@ -111,12 +111,12 @@ a:hover {
 }
 
 .first-section img {
-    max-width: 48%;
+    max-width: 50%;
     height: 50%;
 }
 
 .first-section button img, .fourth-section button img {
-    width: 30px;
+    width: 16px;
     height: auto;
     margin-left: 10px;
 }
@@ -128,14 +128,12 @@ a:hover {
     margin-top: 50px;
 }
 
-.second-section h1 {
-    font-family: 'Roboto-black';
-    font-size: 36px;
+.second-section h2 {
+    font-family: 'Roboto-black', sans-serif;
     color: #1F2937;
 }
 
 .cards-container {
-    width: 70%;
     display: flex;
     gap: 30px;
 }
@@ -150,20 +148,22 @@ a:hover {
 }
 
 .animals-cards img {
-    max-width: 100%;
-    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+figcaption {
+    font-family: Roboto-regular, sans-serif;
 }
 
 .third-section{
-    height: 400px;
     background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 16vh 12vw;
 }
 
-.third-section p{
+.third-section .first-p{
     max-width: 1000px;
     font-family: 'Roboto-light-italics';
     text-align: justify;
@@ -171,37 +171,54 @@ a:hover {
     font-size: 36px;
 }
 
-.third-section p > span{
-    margin-left: 10%;
+.third-section .second-p{
+    font-size: larger;
     font-family: 'Roboto-black';
+    text-align: right;
 }
 
 .fourth-section{
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    padding: 16vh 12vw;
 }
 
 .call-to-action{
-    max-width: 1000px;
-    height: 200px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #3882f6;
-    border-radius: 10px;
-    padding: 3%;
+    border-radius: 7px;
+    padding: 3% 7%;
     border: none;
 }
-.call-to-action p {
-    max-width: 650px;
+.call-to-action h3 {
     font-family: 'Roboto-black';
-    font-size: 36px;
     color: #F9FAF8;
     margin-right: 5%;
 }
 
-.call-to-action button{
-    border: 1px solid #F9FAF8;
+.call-to-action p {
+    color: #F9FAF8;
+    margin-right: 12px;
 }
+
+
+.fourth-section button {
+    border: 1px solid #F9FAF8;
+    margin: 0;
+    font-family: Roboto-regular;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0px;
+    padding: 5vh;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
