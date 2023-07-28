@@ -16,15 +16,11 @@
   font-weight: light-italic;
 }
 
-body {
-  margin: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto-regular;
+  font-family: 'Roboto-regular';
 }
 
 header {
@@ -32,39 +28,37 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #1F2937;
-  color: #F9FAF8;
-  margin-bottom: 0;
-  padding: 0 7vw;
+  color: white;
+  padding: 12px 12vw 0 12vw;
 }
 
 .logo {
-  height: 90%;
-  width: auto;
-  margin-left: 0;
-  padding-left: 0;
+  width: 250px;
+  height: auto;
 }
 
 ul {
-   display: flex;
-   list-style: none;
-   justify-content: space-around;
+  width: 360px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 
 li {
-   padding-left: 12px;
-   font-family: Roboto-regular;
-   font-size: 18px;
+  padding-left: 12px;
+  font-family: Roboto-regular;
+  font-size: 18px;
 }
 
 a {
-   color: #E5E7EB;
-   text-decoration: none;
-   transition: 0.7s ease-in-out;
+  color: #E5E7EB;
+  text-decoration: none;
+  transition: 0.7s ease-in-out;
 }
 
 a:hover {
-   color: #1F2937;
-   background-color: #E5E7EB;
+  color: #1F2937;
+  background-color: #E5E7EB;
 }
 
 .about-container {

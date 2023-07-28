@@ -16,8 +16,11 @@
     font-weight: light-italic;
 }
 
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto-regular';
 }
 
 header {
@@ -26,12 +29,11 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
-    margin-bottom: 0;
-    padding: 0 7vw;
+    padding: 12px 12vw 0 12vw;
 }
 
 .logo {
-    width: 500px;
+    width: 250px;
     height: auto;
 }
 
@@ -101,7 +103,8 @@ footer {
     margin-bottom: 50px;
 }
 
-.first-section button, .fourth-section button {
+.first-section button,
+.fourth-section button {
     width: 250px;
     height: 70px;
     background-color: #3882f6;
@@ -116,7 +119,8 @@ footer {
     transition: 0.7s ease-in-out;
 }
 
-.first-section button:hover, .fourth-section button:hover {
+.first-section button:hover,
+.fourth-section button:hover {
     background-color: #F9FAF8;
     border: 1px solid #F9FAF8;
     color: #3882f6;
@@ -127,7 +131,8 @@ footer {
     height: 50%;
 }
 
-.first-section button img, .fourth-section button img {
+.first-section button img,
+.fourth-section button img {
     width: 30px;
     height: auto;
     margin-left: 10px;
@@ -146,23 +151,23 @@ footer {
 
 
 .adoption-form {
-    padding: 20px; 
+    padding: 20px;
 }
 
 .adoption-form label {
     display: block;
     margin-bottom: 5px;
     font-size: 18px;
-    color: white; 
+    color: white;
 }
 
 .adoption-form input,
 .adoption-form textarea {
     width: 100%;
-    padding: 10px; 
+    padding: 10px;
     margin-bottom: 15px;
     font-size: 16px;
-    background-color: #E5E7EB; 
+    background-color: #E5E7EB;
     color: #1F2937;
     border: none;
     border-radius: 5px;
@@ -194,7 +199,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 20px; 
+    padding: 20px;
 }
 
 .animals-cards {
@@ -210,4 +215,3 @@ footer {
     border-radius: 10%;
     margin-bottom: 10px;
 }
-

@@ -35,8 +35,6 @@ header {
 .logo {
     width: 250px;
     height: auto;
-    margin-left: 0;
-    padding-left: 0;
 }
 
 ul {
@@ -82,13 +80,13 @@ a:hover {
 }
 
 .first-section p {
-    font-family: Roboto-regular, sans-serif;
-    color: #E5E7EB;
+    color: #cdcfd4;
     font-size: 18px;
     margin-top: 10px;
 }
 
-.first-section button, .fourth-section button{
+.first-section button,
+.fourth-section button {
     width: 150px;
     height: 40px;
     background-color: #3882f6;
@@ -102,9 +100,11 @@ a:hover {
     font-size: 18px;
     transition: 0.7s ease-in-out;
     font-family: Roboto-black, sans-serif;
+    cursor: pointer;
 }
 
-.first-section button:hover, .fourth-section button:hover {
+.first-section button:hover,
+.fourth-section button:hover {
     background-color: #F9FAF8;
     border: 1px solid #F9FAF8;
     color: #3882f6;
@@ -115,7 +115,8 @@ a:hover {
     height: 50%;
 }
 
-.first-section button img, .fourth-section button img {
+.first-section button img,
+.fourth-section button img {
     width: 16px;
     height: auto;
     margin-left: 10px;
@@ -130,6 +131,7 @@ a:hover {
 
 .second-section h2 {
     font-family: 'Roboto-black', sans-serif;
+    font-size: 40px;
     color: #1F2937;
 }
 
@@ -144,26 +146,28 @@ a:hover {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 15px;
 }
 
 .animals-cards img {
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     border-radius: 7px;
 }
 
 figcaption {
-    font-family: Roboto-regular, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.third-section{
+.third-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 16vh 12vw;
 }
 
-.third-section .first-p{
+.third-section .first-p {
     max-width: 1000px;
     font-family: 'Roboto-light-italics';
     text-align: justify;
@@ -171,20 +175,21 @@ figcaption {
     font-size: 36px;
 }
 
-.third-section .second-p{
+.third-section .second-p {
+    width: 70%;
     font-size: larger;
     font-family: 'Roboto-black';
     text-align: right;
 }
 
-.fourth-section{
+.fourth-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 16vh 12vw;
 }
 
-.call-to-action{
+.call-to-action {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,23 +198,23 @@ figcaption {
     padding: 3% 7%;
     border: none;
 }
+
 .call-to-action h3 {
     font-family: 'Roboto-black';
     color: #F9FAF8;
     margin-right: 5%;
+    font-size: 24px;
 }
 
 .call-to-action p {
     color: #F9FAF8;
-    margin-right: 12px;
+    margin: 5px 20px 0 0;
+    font-size: 16px;
 }
 
 
 .fourth-section button {
     border: 1px solid #F9FAF8;
-    margin: 0;
-    font-family: Roboto-regular;
-    padding: 0;
 }
 
 footer {
@@ -221,4 +226,4 @@ footer {
     padding: 5vh;
     background-color: #1f2937;
     color: #f9faf8;
-  }
+}

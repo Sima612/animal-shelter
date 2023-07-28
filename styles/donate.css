@@ -17,30 +17,35 @@
 }
 
 body {
-   margin: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto-regular';
 }
 
 header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   background-color: #1F2937;
-   color: #F9FAF8;
-   margin-bottom: 0;
-   padding: 0 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 12px 12vw 0 12vw;
 }
 
 .logo {
-   height: 90%;
-   width: auto;
-   margin-left: 0;
-   padding-left: 0;
+    width: 250px;
+    height: auto;
 }
 
 ul {
+    width: 360px;
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li {
@@ -60,7 +65,7 @@ a:hover {
     background-color: #E5E7EB;
 }
 
-main p{
+main p {
     font-family: Roboto-regular;
     text-align: justify;
 }
@@ -69,23 +74,24 @@ main strong {
     color: #1F2937;
 }
 
-main .title{
+main .title {
     font-family: Roboto-black;
     font-weight: bold;
     margin: 2vw;
     color: #1f2937;
 }
 
-main .reasons, main .payment{
+main .reasons,
+main .payment {
     margin: 4.5vw;
 }
 
-main .payment{
+main .payment {
     display: flex;
     justify-content: space-between;
 }
 
-main .container{
+main .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -95,7 +101,7 @@ main .reasons .container p {
     width: 45%;
 }
 
-main .container div{
+main .container div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,13 +114,13 @@ main .container div{
     font-size: 24px;
 }
 
-main .payment .img_background{
+main .payment .img_background {
     background-color: #E5E7EB;
     border-radius: 50%;
     padding: 0.5vw;
 }
 
-main .payment img{
+main .payment img {
     width: 250px;
     height: auto;
     filter: invert(70%) brightness(40%);
