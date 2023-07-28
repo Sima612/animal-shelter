@@ -50,15 +50,112 @@ li {
     font-size: 18px;
 }
 
-a {
+.logo-link {
     color: #E5E7EB;
     text-decoration: none;
     transition: 0.7s ease-in-out;
 }
 
-a:hover {
+.logo-link:hover {
     color: #1F2937;
     background-color: #E5E7EB;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 400px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px 5% 30px
+}
+
+.adoption-form{
+    width: 100%;
+    padding: 20px;
+}
+
+.adoption-form h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.adoption-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #E5E7EB;
+    border: none;
+    border-bottom: 2px solid #a7a8ac;
+    outline: none;
+}
+
+.adoption-form textarea{
+    height: 200px;
+    margin-top: 5px;
+}
+
+.form-button {
+    width: 100%;
+    height: 40px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 7px;
+    margin-top: 12px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: 'Roboto-black';
+    letter-spacing: 2px;
+    padding-top: 9px;
+    transition: 0.3s ease-in-out;
+}
+
+.adoption-form button:hover {
+    background-color: #F9FAF8;
+    color: #3882f6;
+    cursor: pointer;
+}
+
+.form-p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.animals-column {
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.animal-1, .animal-2, .animal-3, .animal-4{
+    max-width: 350px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.animal-1 img, .animal-2 img, .animal-3 img, .animal-4 img{
+    max-width: 350px;
+    border-radius: 7px;
+}
+
+.animal-1 p, .animal-2 p, .animal-3 p, .animal-4 p{
+    color: #1F2937;
 }
 
 footer {
@@ -72,146 +169,4 @@ footer {
     color: #F9FAF8;
     font-family: Roboto-regular;
     font-size: 24px;
-}
-
-.first-section {
-    display: grid;
-    align-items: center;
-    background-color: #1F2937;
-    padding: 5vh 7vw;
-}
-
-.first-section article {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.first-section h1 {
-    font-family: Roboto-black, sans-serif;
-    color: #F9FAF8;
-    font-size: 48px;
-    margin-top: -50px;
-    margin-bottom: 0;
-    padding-top: 0;
-}
-
-.first-section p {
-    font-family: Roboto-regular, sans-serif;
-    color: #E5E7EB;
-    font-weight: 18px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.first-section button,
-.fourth-section button {
-    width: 250px;
-    height: 70px;
-    background-color: #3882f6;
-    border: none;
-    border-radius: 16px;
-    margin-top: 12px;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    transition: 0.7s ease-in-out;
-}
-
-.first-section button:hover,
-.fourth-section button:hover {
-    background-color: #F9FAF8;
-    border: 1px solid #F9FAF8;
-    color: #3882f6;
-}
-
-.first-section img {
-    max-width: 48%;
-    height: 50%;
-}
-
-.first-section button img,
-.fourth-section button img {
-    width: 30px;
-    height: auto;
-    margin-left: 10px;
-}
-
-
-.card {
-    background-color: #1F2937;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 400px;
-}
-
-
-.adoption-form {
-    padding: 20px;
-}
-
-.adoption-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: white;
-}
-
-.adoption-form input,
-.adoption-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    background-color: #E5E7EB;
-    color: #1F2937;
-    border: none;
-    border-radius: 5px;
-}
-
-.adoption-form textarea {
-    resize: vertical;
-}
-
-.adoption-form button {
-    width: 100%;
-    height: 40px;
-    background-color: #3882f6;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-    color: #F9FAF8;
-    font-size: 18px;
-    transition: 0.3s ease-in-out;
-}
-
-.adoption-form button:hover {
-    background-color: #F9FAF8;
-    color: #3882f6;
-    cursor: pointer;
-}
-
-.animals-column {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 20px;
-}
-
-.animals-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.animals-cards img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 10%;
-    margin-bottom: 10px;
 }
