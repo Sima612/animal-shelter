@@ -22,6 +22,10 @@
     box-sizing: border-box;
     font-family: 'Roboto-regular';
 }
+main{
+    display:flex;
+    justify-content: space-around;
+}
 
 header {
     display: flex;
@@ -196,10 +200,26 @@ footer {
 }
 
 .animals-column {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 20px;
+=======
+    display: flex; 
+    width: 45%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.aniimals-column figure{
+    margin: 0;
+}
+.animals-column figcaption{
+    text-align:center;
+    font-size: 24px;
+    font-family: Roboto-black;
+>>>>>>> 32ecc734d3ce2808d562254eb6c12bad34a04599
 }
 
 .animals-cards {
@@ -208,10 +228,15 @@ footer {
     align-items: center;
 }
 
-.animals-cards img {
-    width: 100px;
-    height: 100px;
+.animals-column img {
+    width: 250px;
+    height: auto;
     object-fit: cover;
     border-radius: 10%;
     margin-bottom: 10px;
+<<<<<<< HEAD
 }
+=======
+    
+}
+>>>>>>> 32ecc734d3ce2808d562254eb6c12bad34a04599
