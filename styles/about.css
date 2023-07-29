@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'Roboto-regular';
+  font-family: "Roboto-regular";
   src: url(../../fonts/roboto/Roboto-Regular.ttf) format(truetype);
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Roboto-black';
+  font-family: "Roboto-black";
   src: url(../../fonts/roboto/Roboto-Black.ttf) format(truetype);
   font-weight: extra-bold;
 }
 
 @font-face {
-  font-family: 'Roboto-light-italics';
+  font-family: "Roboto-light-italics";
   src: url(../../fonts/roboto/Roboto-LightItalic.ttf) format(truetype);
   font-weight: light-italic;
 }
@@ -20,16 +20,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto-regular';
+  font-family: "Roboto-regular";
+  /* border: 1px solid red; */
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1F2937;
+  background-color: #1f2937;
   color: white;
   padding: 12px 12vw 0 12vw;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
 }
 
 .logo {
@@ -50,14 +56,14 @@ li {
 }
 
 .logo-link {
-  color: #E5E7EB;
+  color: #e5e7eb;
   text-decoration: none;
   transition: 0.7s ease-in-out;
 }
 
 .logo-link:hover {
-  color: #1F2937;
-  background-color: #E5E7EB;
+  color: #1f2937;
+  background-color: #e5e7eb;
 }
 
 .about-container {
@@ -72,7 +78,7 @@ li {
 .img_background {
   display: flex;
   justify-content: center;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   border-radius: 50%;
   width: 250px;
   margin: 0 auto;
@@ -133,7 +139,7 @@ li {
 }
 
 .about-section-right h2 {
-  color: #1F2937;
+  color: #1f2937;
   font-weight: bold;
   font-family: Roboto-black;
   font-size: 48px;
@@ -176,11 +182,11 @@ ul li img {
 .about-button {
   width: 150px;
   height: 40px;
-  background-color: #1F2937;
+  background-color: #1f2937;
   border: none;
   border-radius: 7px;
   margin-top: 30px;
-  color: #F9FAF8;
+  color: #f9faf8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,16 +202,17 @@ ul li img {
 
 .about-button:hover {
   background-color: #3f5e8a;
-  border: 1px solid #F9FAF8;
+  border: 1px solid #f9faf8;
 }
 
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0;
   padding: 4vh;
+  width: 100%;
   background-color: #1f2937;
   color: #f9faf8;
   font-family: Roboto-regular;
