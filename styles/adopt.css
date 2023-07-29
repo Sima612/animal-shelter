@@ -100,6 +100,8 @@ main{
 .adoption-form textarea{
     height: 200px;
     margin-top: 5px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
 }
 
 .form-button {
@@ -138,24 +140,22 @@ main{
     flex-wrap: wrap;
 }
 
-
-.animal-1, .animal-2, .animal-3, .animal-4{
+.animal{
     max-width: 350px;
-    height: 400px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 7px;
+    height: auto;
 }
 
-.animal-1 img, .animal-2 img, .animal-3 img, .animal-4 img{
-    max-width: 350px;
-    border-radius: 7px;
+figure img{
+    max-width: 250px;
+    height: auto;
+    border-radius: 20px;
 }
 
-.animal-1 p, .animal-2 p, .animal-3 p, .animal-4 p{
+figcaption{
+    text-align: center;
     color: #1F2937;
+    font-family: Roboto-black;
+    font-size: 20px;
 }
 
 footer {

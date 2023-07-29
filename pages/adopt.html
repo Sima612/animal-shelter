@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header style="background-color: #1F2937;">
+    <header>
         <a href="../index.html">
             <img class="logo" src="../img/Kreativ Shelter 500x100.png" alt="Kreativ Shelter Company Logo " />
         </a>
@@ -33,8 +33,8 @@
     </header>
 
     <main>
-        <div class="card">
-            <form class="adoption-form" action="post">
+        <section class="card">
+            <form class="adoption-form" action="#">
                 <h2>Please fill in the form below:</h2>
 
                 <label for="first-name">First name:</label>
@@ -52,40 +52,40 @@
                 <label for="additional-comments">Why do you want to adopt:</label>
                 <textarea id="additional-comments" name="additional-comments" rows="4" cols="50"></textarea><br>
 
-                <section>
+                <div>
                     <a href="#">
-                        <button class="form-button">
+                        <button type="submit" class="form-button">
                             Submit
                         </button>
                     </a>
                     <p class="form-p">*After you press the adopt button we will contact you.</p>
-                </section>
+                </div>
 
             </form>
-        </div>
+        </section>
 
-        <div class="animals-column">
-            <div class="animal-1">
-                <img src="../img/Ramon.jpg" alt="A dog called Ramon">
-                <h2>Ramon</h2>
-            </div>
-            <div class="animal-2">
-                <img src="../img/Lily.jpg" alt="A cat called Lily">
-                <h2>Lily</h2>
-            </div>
-            <div class="animal-3">
-                <img src="../img/Billy.jpg" alt="A dog called Billy">
-                <h2>Billy</h2>
-            </div>
-            <div class="animal-4">
-                <img src="../img/Santiago.jpg" alt="A cat called Santiago">
-                <h2>Santiago</h2>
-            </div>
-        </div>
+        <section class="animals-column">
+            <figure class="animal">
+                <img src="../img/Ramon.jpg" alt="A male puppy">
+                <figcaption>Ramon</figcaption>
+            </figure>
+            <figure class="animal">
+                <img src="../img/Lily.jpg" alt="A white and brown female cat">
+                <figcaption>Lily</figcaption>
+            </figure>
+            <figure class="animal">
+                <img src="../img/Billy.jpg" alt="A male adult dog">
+                <figcaption>Billy</figcaption>
+            </figure>
+            <figure class="animal">
+                <img src="../img/Santiago.jpg" alt="An orange male cat">
+                <figcaption>Santiago</figcaption>
+            </figure>
+        </section>
     </main>
 
-    <footer style="background-color: #1F2937;">
-        <p style="color: #F9FAF8;">Copyright &copy;</p>
+    <footer>
+        <p>Copyright &copy; Kreativ Shelter</p>
     </footer>
 </body>
 

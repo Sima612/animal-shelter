@@ -65,7 +65,6 @@ li {
   width: 100%;
   justify-content: center;
   margin: auto;
-  height: 100vh;
   gap: 4rem;
   position: relative;
 }
@@ -88,7 +87,8 @@ li {
 
 .about-section-left {
   width: 400px;
-  height: 700px;
+  height: auto;
+  margin-bottom: 2rem;
   margin-top: 8rem;
   text-align: start;
   padding: 0 30px 0;
@@ -110,12 +110,12 @@ li {
   font-size: 36px;
   font-weight: bolder;
   text-align: center;
-  margin: 0.8vh;
+  margin: 2vh;
 }
 
 .about-section-left p {
   transform: translateY(-50px);
-  margin: 1.5vh;
+  margin: 2vh;
   color: #f9faf8;
   text-align: justify;
 }

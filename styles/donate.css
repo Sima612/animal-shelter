@@ -99,6 +99,7 @@ main .container {
 
 main .reasons .container p {
     width: 45%;
+    margin: 1.5vh;
 }
 
 main .container div {
