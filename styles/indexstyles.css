@@ -47,7 +47,7 @@ ul {
 
 li {
     padding-left: 12px;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
     font-size: 18px;
 }
 
@@ -174,7 +174,7 @@ figcaption {
 
 .third-section .first-p {
     max-width: 1000px;
-    font-family: 'Roboto-light-italics';
+    font-family: 'Roboto-light-italics', sans-serif;
     text-align: justify;
     color: #1F2937;
     font-size: 36px;
@@ -183,7 +183,7 @@ figcaption {
 .third-section .second-p {
     width: 70%;
     font-size: larger;
-    font-family: 'Roboto-black';
+    font-family: 'Roboto-black', sans-serif;
     text-align: right;
 }
 
@@ -205,7 +205,7 @@ figcaption {
 }
 
 .call-to-action h3 {
-    font-family: 'Roboto-black';
+    font-family: 'Roboto-black', sans-serif;
     color: #F9FAF8;
     margin-right: 5%;
     font-size: 24px;
@@ -223,6 +223,7 @@ figcaption {
 }
 
 footer {
+    font-family: Roboto-regular, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;

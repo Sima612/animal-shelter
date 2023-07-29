@@ -20,7 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
 }
 
 header {
@@ -46,7 +46,7 @@ ul {
 
 li {
     padding-left: 12px;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
     font-size: 18px;
 }
 
@@ -113,7 +113,7 @@ main{
     margin-top: 12px;
     color: #F9FAF8;
     font-size: 18px;
-    font-family: 'Roboto-black';
+    font-family: 'Roboto-black', sans-serif;
     letter-spacing: 2px;
     padding-top: 9px;
     transition: 0.3s ease-in-out;
@@ -154,11 +154,12 @@ figure img{
 figcaption{
     text-align: center;
     color: #1F2937;
-    font-family: Roboto-black;
+    font-family: Roboto-black, sans-serif;
     font-size: 20px;
 }
 
 footer {
+    font-family: Roboto-regular, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;

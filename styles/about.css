@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto-regular;
+  font-family: Roboto-regular, sans-serif;
 }
 
 header {
@@ -140,7 +140,7 @@ li {
 .about-section-right h2 {
   color: #1f2937;
   font-weight: bold;
-  font-family: Roboto-black;
+  font-family: Roboto-black, sans-serif;
   font-size: 48px;
 }
 
@@ -214,6 +214,6 @@ footer {
   width: 100%;
   background-color: #1f2937;
   color: #f9faf8;
-  font-family: Roboto-regular;
+  font-family: Roboto-regular, sans-serif;
   font-size: 24px;
 }

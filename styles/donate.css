@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
 }
 
 header {
@@ -50,7 +50,7 @@ ul {
 
 li {
     padding-left: 12px;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
     font-size: 18px;
 }
 
@@ -66,7 +66,7 @@ li {
 }
 
 main p {
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
     text-align: justify;
 }
 
@@ -75,7 +75,7 @@ main strong {
 }
 
 main .title {
-    font-family: Roboto-black;
+    font-family: Roboto-black, sans-serif;
     font-weight: bold;
     margin: 2vw;
     color: #1f2937;
@@ -111,7 +111,7 @@ main .container div {
     background-color: #1F2937;
     color: #F9FAF8;
     border-radius: 10%;
-    font-family: Roboto-black;
+    font-family: Roboto-black, sans-serif;
     font-size: 24px;
 }
 
@@ -136,6 +136,6 @@ footer {
     padding: 4vh;
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: Roboto-regular;
+    font-family: Roboto-regular, sans-serif;
     font-size: 24px;
 }
